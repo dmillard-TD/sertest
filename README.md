@@ -1,3 +1,5 @@
+# sertest
+Serial port loopback test
 
 sertest version 1.0
 usage: ././sertest [-v] [-d device] [-b baud] -t|-r
