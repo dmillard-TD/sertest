@@ -21,11 +21,11 @@ is designated the "receiver".
 
 First, start up the "receiver" side in it's own shell:
 
-./sertest -d /dev/ttyHS1 -b 115200 -r
+./sertest -d /dev/ttyS1 -b 115200 -r
 
 Next, start up the "transmitter" side in it's own shell:
 
-./sertest -d /dev/tthHS2 -b 115200 -t
+./sertest -d /dev/ttyS2 -b 115200 -t
 
 The transmitter will send the characters A-Z and repeat
 The recevier will receive each letter and print if the 
